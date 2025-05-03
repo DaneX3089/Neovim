@@ -15,6 +15,7 @@ return {
 					typescript = { "prettier" },
 					java = { "google-java-format" }, -- optional
 					rust = { "rustfmt" },
+					cpp = { "clang_format" },
 				},
 			})
 		end,
